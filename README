@@ -1,0 +1,23 @@
+DVDVendor is toy program in Java is a useful teaching example. It's sufficiently 
+complex that it will pose problems for students who have never worked with
+code written by others. There some inheritance, use of exception classes, 
+and some design patterns. 
+
+The program is meant to emulate a vending machine for DVD rentals, such as those 
+in grocery stories and other retailers. This one in particular was modeled
+after based on RedBox.
+
+The doc folder contains automatically generated Javadocs.
+
+The app package contains the back end for the system. To keep things simple, 
+there is no external DBMS. Instead, a set of utilities in the lib package 
+have been created to fake a DBMS.
+
+The gui package is provided for convenience. It is not meant to be a user 
+interface for the customers. Instead, it is a means for students to interact
+with the system and to provide starting points for reading the code. As 
+another simplification, I didn't want students to get caught up in making a
+beautiful UI.
+
+The devices package is meant to be a Facade for APIs for the I/O devices
+in a self-check out. Right now, they are just mock ups.
